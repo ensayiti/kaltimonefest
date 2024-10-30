@@ -17,4 +17,8 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/pendaftar', \App\Livewire\PendaftarForm::class);
+//Route::get('/pendaftar', \App\Livewire\PendaftarForm::class);
+
+Route::get('/balikpapan', \App\Livewire\BalikpapanForm::class);
+
+Route::get('/samarinda', \App\Livewire\SamarindaForm::class);
